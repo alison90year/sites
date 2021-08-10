@@ -1,0 +1,60 @@
+{
+  "name": "vue-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "build:site1": "cross-env NODE_ENV='site1,temp1' vue-cli-service build",
+    "build:site2": "cross-env NODE_ENV='site2,temp1' vue-cli-service build",
+    "start:site1": "cross-env NODE_ENV='site1,temp1' vue-cli-service serve ",
+    "start:site2": "cross-env NODE_ENV='site2,temp1' vue-cli-service serve "
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "cache-loader": "^4.1.0",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "eslint-loader": "^4.0.2",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^6.1.0",
+    "vue": "^3.0.0-beta.1",
+    "vue-i18n": "9.0.0-beta.16",
+    "vuex": "^4.0.0",
+    "webpack": "^5.49.0",
+    "webpack-dev-middleware": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-alpha.0",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "vue-router": "^4.0.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
