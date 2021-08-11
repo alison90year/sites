@@ -17,5 +17,5 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
-@import 'theme/home.scss';
+@import '@siteStyle/home.scss';
 </style>

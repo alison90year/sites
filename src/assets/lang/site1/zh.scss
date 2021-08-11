@@ -1,0 +1,9 @@
+@function link($url) {
+  @return '/assets/imgs/site1/zh' + $url + '?__static_hash__';
+}
+html[lang='zh'] {
+  #box{
+    height: 300px;
+    background: url(link('/my.png')) no-repeat;
+  }
+}

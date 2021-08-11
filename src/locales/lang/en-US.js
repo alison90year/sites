@@ -1,5 +1,5 @@
 import Home from '@lang/en/index'
-import MokeJSON from '@lang/en/moke'
+import JSON from '@lang/en/json'
 
 const Settings = {
   settings: 'Site Settings',
@@ -11,6 +11,6 @@ const Settings = {
 
 export default {
   Home,
-  MokeJSON,
+  JSON,
   Settings,
 }

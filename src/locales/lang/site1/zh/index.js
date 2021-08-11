@@ -1,4 +1,6 @@
+import JSON from './json'
 const index = {
+  ...JSON,
   header:{
     title:'blue title 1111'
   },

@@ -5,9 +5,9 @@ export const hash = {
     const src = el.getAttribute('src');
     const type = el.getAttribute('type')
     if (src && type !== 'base' ) {
-      el.setAttribute('src', require(`@imgs/${lang}/${src}`));
+      el.setAttribute('src', require(`@publicImg/${lang}/${src}`));
     }else{
-      el.setAttribute('src', require(`assets/imgs/base/${src}`));
+      el.setAttribute('src', require(`@baseImg/${src}`));
     }
   }
 }

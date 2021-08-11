@@ -1,5 +1,5 @@
 import index from '@lang/zh/index'
-import MokeJSON from '@lang/zh/moke'
+import MokeJSON from '@lang/zh/json'
 // @lang 根据启动参数引入对应站点的语言包
 const Settings = {
   settings: '站点配置',

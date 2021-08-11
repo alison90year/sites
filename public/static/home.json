@@ -1,0 +1,95 @@
+{
+  "code":"0",
+  "data":[
+    {
+      "context":"网球赛事：2021/08/11 22:30ATP圣马力诺挑战赛 - 男单 （杰·克拉克 VS 费利佩·梅利杰尼·罗得里格斯·阿尔维斯)- 因杰·克拉克 赛前弃赛，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57948",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":3,
+      "noticeTypeName":"网球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"杰·克拉克 赛前弃赛"
+    },
+    {
+      "context":"网球赛事：2021/08/11 22:10  ITF M15格丁尼亚 - 男双（伊利亚·比洛博罗科 / 乔治·克拉夫琴科 VS 罗曼·安德烈斯·布尔鲁查加 / 阿列霍·洛伦佐·林瓦·拉瓦伦)&nbsp;-因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57947",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":3,
+      "noticeTypeName":"网球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    },
+    {
+      "context":"网球赛事：2021/08/11 21:20ATP梅尔布施挑战赛 - 男双（丹尼斯·蒙尔查诺夫 / 亚历山大·内多夫耶索夫 VS 马塞洛·托马斯·巴里奥斯·维拉 / 亚历杭德罗·塔比洛)&nbsp;-因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57941",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":3,
+      "noticeTypeName":"网球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    },
+    {
+      "context":"羽毛球赛事：&nbsp;2021/08/11 19:40亚美尼亚英菲尼迪杯 - 男单 （格沃格·伊萨哈克扬 VS 阿拉耶克·胡南彦）- 因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57940",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":4,
+      "noticeTypeName":"羽毛球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    },
+    {
+      "context":"网球赛事：2021/08/11 18:00ITF W25科克赛德 - 女单（迪·德·弗鲁姆 VS 梅雷尔·赫特)&nbsp;-因迪·德·弗鲁姆 赛事中途弃赛，除了已有明确结果的注单以外，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57930",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":3,
+      "noticeTypeName":"网球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"迪·德·弗鲁姆 赛事中途弃赛"
+    },
+    {
+      "context":"羽毛球赛事：&nbsp;2021/08/11 17:10亚美尼亚英菲尼迪杯 - 男单 （扎文·纳兹卡严 VS 阿拉耶克·胡南彦）- 因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57929",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":4,
+      "noticeTypeName":"羽毛球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    },
+    {
+      "context":"网球赛事：2021/08/11 23:00ATP多伦多公开赛 - 男单（劳艾德·哈里斯VS拉斐尔·纳达尔)&nbsp;-因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57842",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":3,
+      "noticeTypeName":"网球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    },
+    {
+      "context":"足球赛事：2021/08/09 18:00日本J2联赛（金泽萨维根 VS 长崎成功丸）-因赛事取消，所有受影响的注单一律视为无效，串关以（1）计算。",
+      "id":"57837",
+      "isShuf":1,
+      "isTop":0,
+      "noticeType":1,
+      "noticeTypeName":"足球赛事",
+      "sendTime":"08/11/21",
+      "sendTimeOther":null,
+      "title":"赛事取消"
+    }
+  ],
+  "msg":"成功",
+  "ts":1628695065922
+}

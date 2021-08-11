@@ -1,0 +1,19 @@
+@function link($url) {
+  @return '/assets/imgs/site1/en' + $url + '?__static_hash__';
+}
+
+html[lang='en'] {
+  #box{
+    background: red;
+    width: 300px;
+    font-size: 12px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  .bg-test{
+    width: 100%;
+    height: 100px;
+    background: url(link('/home/me.png'));
+  }
+}

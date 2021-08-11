@@ -1,27 +1,39 @@
+import { getLangObecByFilePrefix } from '@/utils'
+const user = getLangObecByFilePrefix('index', 'user')
 const state = {
-  username: 'yellow',
-  total: 0,
+  LOCALE_KEY: 'localeLanguage',
+  THEME_KEY: 'theme',
   accessToken: 'admin',
-  avatar: '用户头像蓝色22222222',
+  theme: window.localStorage.getItem('theme') || 'light',
+  avatar: '用户头像 1111111',
   lang: window.localStorage.getItem('localeLanguage') || 'zh',
-  userList: [{ name: 'admin', age: 29 }]
+  address: user.address
 }
 
-let mutations = {
-  setAccessToken (state, accessToken) {
+const mutations = {
+  setAccessToken(state, accessToken) {
     state.accessToken = accessToken
   },
-  setTotal (state, total) {
-    state.total = total
+  setLanguage(state, lang) {
+    state.lang = lang
+    window.location.reload()
+  },
+  setTheme(state, theme){
+    state.theme = theme
   }
 }
-let actions = {
-  testActions ({ commit }, num) {
-    setTimeout(() => {
-      commit('setTotal', num)
-      console.log(num)
-    }, 2000)
+const actions = {
+  testActions({commit}, lang) {
+    window.localStorage.setItem(state.LOCALE_KEY, lang)
+    commit('setLanguage', lang)
+  },
+  setThemeActions({commit},theme) {
+    if(state.theme !== theme){
+      document.querySelector('html').setAttribute('theme',theme)
+      window.localStorage.setItem(state.THEME_KEY, theme)
+      commit('setTheme', theme)
+    }
   }
 }
 
-export default { namespaced:true, state, mutations , actions }
+export default {namespaced: true, state, mutations, actions}

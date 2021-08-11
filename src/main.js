@@ -4,6 +4,9 @@ import router from '@/router/index';
 import {i18n} from '@locales/index'
 import store from '@store'
 import * as directives from '@/directives'
+import  'element-plus/lib/theme-chalk/base.css';
+import  'element-plus/lib/theme-chalk/el-loading.css';
+import  'element-plus/lib/theme-chalk/el-message.css';
 //全局配置语言包方便JS外部访问
 console.log(process.env.NODE_ENV.split(','),'当前环境标签')
 // 注册自定义指令
