@@ -1,10 +1,9 @@
 import axios from 'axios';
 import qs from 'qs';
 import { useRouter } from 'vue-router'
-
-
 import { ElLoading, ElMessage } from 'element-plus'
 import router from '@/router/index'
+import httpCode from './status'
 let loadingInstance = null  // 加载全局的loading
 const isProd = process.env.NODE_ENV.split(',')[2] === 'production'
 const instance = axios.create({    //创建axios实例，在这里可以设置请求的默认配置
@@ -13,18 +12,7 @@ const instance = axios.create({    //创建axios实例，在这里可以设置�
 })
 // // 文档中的统一设置post请求头。下面会说到post请求的几种'Content-Type'
 instance.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
-//
-let httpCode = {        //这里我简单列出一些常见的http状态码信息，可以自己去调整配置
-  400: '请求参数错误',
-  401: '权限不足, 请重新登录',
-  403: '服务器拒绝本次访问',
-  404: '请求资源未找到',
-  500: '内部服务器错误',
-  501: '服务器不支持该请求中使用的方法',
-  502: '网关错误',
-  504: '网关超时'
-}
-//
+
 // /** 添加请求拦截器 **/
 instance.interceptors.request.use(config => {
   config.headers['token'] = sessionStorage.getItem('token') || ''
@@ -54,7 +42,7 @@ instance.interceptors.request.use(config => {
   return Promise.reject(error)
 })
 
-
+console.log(httpCode,'当前状态码')
 /** 添加响应拦截器  **/
 instance.interceptors.response.use(response => {
   setTimeout(() => {

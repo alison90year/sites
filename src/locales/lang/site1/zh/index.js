@@ -9,7 +9,8 @@ const index = {
   },
   details:{
      name:'详情'
-  }
+  },
+
 }
 
 

@@ -16,8 +16,8 @@ export default defineComponent({
     let route = useRoute()
     console.log(route.query)
     let store = useStore(),
-      userStore = computed( () => store.state.user ),// 获取整个state
-      avatar = computed( () => store.getters.avatar)// 获取整个state
+      userStore = computed( () => store.state.user ),
+      avatar = computed( () => store.getters.avatar)
     const langeName = ref('国际化')
     const testParams = ref(dataJson)
     const lang =  computed( () => store.getters.lang)
